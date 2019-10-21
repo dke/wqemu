@@ -1,0 +1,9 @@
+---
+name: qdb
+discs:
+  - disc0.qcow2
+mem: 1024
+iso: ~/Downloads/CentOS-7-x86_64-Minimal-1804.iso
+nics:
+  - [ "52:54:00:ff:e0:05", "bridge1" ] 
+  - [ "52:54:00:d6:86:c7", "bridge2" ] 

@@ -1,0 +1,26 @@
+Google keywords: OVMF UEFI EDK2
+
+https://www.kraxel.org/repos/
+
+on some centos7, I installed the firmware.repo and installed edk2.git-ovmf-x64.noarch
+
+# rpm -ql edk2.git-ovmf-x64.noarch
+/usr/share/doc/edk2.git-ovmf-x64
+/usr/share/doc/edk2.git-ovmf-x64/README
+/usr/share/edk2.git
+/usr/share/edk2.git/ovmf-x64
+/usr/share/edk2.git/ovmf-x64/OVMF-need-smm.fd
+/usr/share/edk2.git/ovmf-x64/OVMF-pure-efi.fd
+/usr/share/edk2.git/ovmf-x64/OVMF-with-csm.fd
+/usr/share/edk2.git/ovmf-x64/OVMF_CODE-need-smm.fd
+/usr/share/edk2.git/ovmf-x64/OVMF_CODE-pure-efi.fd
+/usr/share/edk2.git/ovmf-x64/OVMF_CODE-with-csm.fd
+/usr/share/edk2.git/ovmf-x64/OVMF_VARS-need-smm.fd
+/usr/share/edk2.git/ovmf-x64/OVMF_VARS-pure-efi.fd
+/usr/share/edk2.git/ovmf-x64/OVMF_VARS-with-csm.fd
+/usr/share/edk2.git/ovmf-x64/UefiShell.iso
+
+
+
+/usr/share/edk2.git/ovmf-x64/OVMF-pure-efi.fd seems to work
+

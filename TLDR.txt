@@ -1,0 +1,15 @@
+After booting some manual commands are required (could be put in some automated
+startup script perhaps), see boot.sh.
+
+After powersame, the bridge seems to lose the ip and its clients, so some other
+stuff is required, no clue how that could be automized, see wakeup.sh.
+
+For a documentation about the script itself, see its included usage
+information.
+
+Assumptions in the scripts:
+
+bridge network: 172.16.0.0/16
+infrastructure range: 172.16.0.0/24
+dhcp range: 172.16.1.0/24
+reservations: 172.16.2.0/24

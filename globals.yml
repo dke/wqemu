@@ -1,0 +1,9 @@
+---
+qemu: qemu-system-x86_64
+accel: hvf
+cpu: host
+machine: q35
+bridges:
+- bridge1
+- bridge2
+keyboard: de
